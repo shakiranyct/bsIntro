@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+#head{
+	background-image: url("../images/atmosphere-clouds-daylight-1287142.jpg");
+	background-position:center;
+	background-size: cover;	
+	
+}
+/*******************************FONTS************************************/
+h1{
+	color: #38358B;
+	font-family: 'Fuzzy Bubbles', cursive;
+}
+h4{
+	font-family: 'Fuzzy Bubbles', cursive;
+}
+p{
+	font-family: 'Nunito', sans-serif;
+}
+/*************************NAV********************************************/
+
+nav{
+	background-color: #AB94C9;
+	
+}
+
+/***************************ABOUT*****************************************/
+
+#about{
+	color:#2E3473;
+	
+}
+
+/*************************FAMILY******************************************/
+
+#fam{
+	background-color:#6D90AD; /*#4D9BA2 #6DADA8*/
+	
+}
+
+/***************************HOBBY*****************************************/
+
+#hob{
+	background-color:#3D6590;/*#35717B*/
+}
+/****************************FACTS****************************************/
+	
+#fac{
+	background-color:#293A6D;/*#265465*/
+}
+
+/*****************************FOOTER**************************************/
+
+footer{
+	background-color:#2B2456; /*#352E5B*/
+}
+
+/*******************************LINKS************************************/
+
+a{
+	color:#3464E7;
+}
+
+a:link, a:visited{
+	color:#3464E7;
+}
+
+a:hover{
+	color:#04463F;
+}
+
+
+	
+
+
+
+
+	
+	
