@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Trispace:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&family=Trispace:wght@300&display=swap');
+header{
+	/**background img here**/
+	background-image:url("../images/Dark.jpg");
+	background-size:cover;
+	background-position:center;
+	/**text color**/
+	color:white;
+	font-family: 'Trispace', sans-serif;
+}
+
+/*****************NAV*****************/
+
+nav{
+	background-color:#4CC5CB; /*#4CCBB5*/
+	color:white;
+	font-size:23px;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+a:link{
+	color:#FFFFFF;
+}
+
+a:hover{
+	color:#05FFB5;
+}
+
+a:visited{
+	color:#2084FC;
+}
+
+/**************SECTION****************/
+
+section{
+	color:#056EA8;  /*#058CBD*/
+	background-color:#BCF1FF;    /*color options #92FFDA #AAEDFF*/
+	font-family: 'Titillium Web', sans-serif;
+}
+
+/***************FOOTER****************/
+
+footer{
+	background-color:#4CC5CB;
+	/*color:white;*/
+	color:#056EA8;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+
+	 
+
+
+/*************media stuff*****************/
+
+@media only screen and (min-width: 576px){
+	header{
+		background-image:url("../images/BoraLight.jpg");
+	}
+}
+
+h4{
+	font-family: 'Trispace', sans-serif;
+}
+
+
+#Ref{
+	background-color: #3F6F6B;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
