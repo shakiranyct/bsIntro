@@ -1,0 +1,78 @@
+@charset "utf-8";
+/* CSS Document */
+
+#homeMasthead{
+/*	background-color: #102E45;*/
+	background-image: url("../images/backgrounds/Convocation-mobile.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+#serviceMasthead{
+	background-image: url("../images/OIP.jpg");
+	background-size: cover;
+	background-position: center;
+}
+h2{
+	color: #425ECB;
+}
+
+.bg-dark{
+	background-color:  #425ECB !important;
+}
+
+/*set defualt font- size - mobile first*/
+/*overridding a BS4 class with own style*/
+.display-1{
+	font-size: 32pt;
+}
+/*class to define the height of any element it is added to*/
+.height80{
+	height:80vh;
+}
+
+footer{
+	background-color:#01253D;
+	padding:100px 0px;
+	color:#BDC6D0;
+}
+a{
+	color:#BDC6D0;
+}
+
+a:link, a:visited{
+	color:#BDC6D0;
+}
+
+a:hover{
+	color: aquamarine;
+}
+
+/* Small devices (portrait tablets and large phones, 576px and up) */
+@media only screen and (min-width: 576px) {
+	.display-1{
+		font-size: 60pt;
+	}
+}
+
+
+/* Medium devices */
+@media only screen and (min-width: 768px) {
+	#homeMasthead{
+	background-image: url("../images/graphicstock-funny-beagle-dog-wearing-sunglasses-relaxing-in-green-park_BA9A4BnW-.webp");
+	}
+	.display-1{
+		font-size: 80pt;
+		
+	}
+}
+
+
+
+
+
+
+
+
+
+
