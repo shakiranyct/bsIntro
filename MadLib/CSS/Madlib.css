@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kenia&display=swap');
+header{
+	background-image: url("../Images/OIP.jpg");
+	background-size: cover;
+	background-position: center;
+	font-family: 'Kenia', cursive;
+}
+section{
+	background-color:#FFFAD7;
+	font-family: 'Roboto Slab', serif;
+}
+footer{
+	background-color:#418CD1;
+	font-family: 'Roboto Slab', serif;
+}
+h4{font-family: 'Roboto Slab', serif;}
+h2{font-family: 'Kenia', cursive;}

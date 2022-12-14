@@ -1,0 +1,178 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+	 <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MadLib</title>
+	   <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+	
+    <link href="CSS/Madlib.css" rel="stylesheet" type="text/css">
+	 <!-- jQuery library -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script> 
+</head>
+	
+<body>
+	<header>
+		<div class="container text-center p-5 text-primary">
+			<div class="row">
+				<div class="col-sm-12 pb-5 pt-5 bg-warning">
+					<h1>The Halloween Fiesta</h1>
+						<h4>A MadLib</h4>
+				</div>
+			</div>
+		</div>
+	</header>
+	
+	<!--body/ choices-->
+	
+	<section>
+		<div class="container text-center pt-5 text-primary">
+			<div class="row">
+				<div class="col-sm-6 mx-auto">
+					<h3>Please fill these in!</h3>
+					<p><strong>Ps. Verb=an action</strong></p>
+					
+					
+					<form action="javascript:write();">
+						<div class="form-group">
+							<label for="name"><b>Male Name:</b></label>
+							<input class="form-control" type="text" id="name">
+						</div>
+						
+						<div class="form-group text-warning">
+							<label for="name2"><b>Female Name:</b></label>
+							<input class="form-control" type="text" id="name2">
+						</div>
+						
+						<div class="form-group">
+							<label for="party"><b>Party Name:</b></label>
+							<input class="form-control" type="text" id="party">
+						</div>
+						
+						<div class="form-group text-warning">
+							<label for="costume"><b>Costume:</b></label>
+							<input class="form-control" type="text" id="costume">
+						</div>
+						
+						<div class="form-group">
+							<label for="object"><b>Object:</b></label>
+							<input class="form-control" type="text" id="object">
+						</div>
+						
+						<div class="form-group text-warning">
+							<label for="object2"><b>Object 2:</b></label>
+							<input class="form-control" type="text" id="object2">
+						</div>
+						
+						<div class="form-group">
+							<label for="object3"><b>Object 3:</b></label>
+							<input class="form-control" type="text" id="object3">
+						</div>
+						
+						<div class="form-group text-warning">
+							<label for="verb"><b>Verb ending with "ing":</b></label>
+							<input class="form-control" type="text" id="verb">
+						</div>
+						
+						<div class="form-group">
+							<label for="verb2"><b>Verb ending with "ly":</b></label>
+							<input class="form-control" type="text" id="verb2">
+						</div>
+						
+						<div class="form-group text-warning">
+							<label for="weapon"><b>Short Range Weapon:</b></label>
+							<input class="form-control" type="text" id="weapon">
+						</div>
+						
+						<div class="form-group">
+							<label for="monster"><b>Monster:</b></label>
+							<input class="form-control" type="text" id="monster">
+						</div>
+						
+						<div class="form-group text-warning">
+							<label for="emotion2"><b>Emotion 2:</b></label>
+							<input class="form-control" type="text" id="emotion2">
+						</div>
+						
+						<div class="form-group">
+							<label for="emotion3"><b>Emotion 3:</b></label>
+							<input class="form-control" type="text" id="emotion3">
+						</div>
+							<br>
+					<div class="form-group text-warning">
+					Emotion before a Verb:
+					<div class="form-check">
+					  <label class="form-check-label">
+						<input type="radio" class="form-check-input" name="emotion" value="scared">Scared
+					  </label>
+					</div>
+					<div class="form-check">
+					  <label class="form-check-label">
+						<input type="radio" class="form-check-input" name="emotion" value="sad">Sad
+					  </label>
+					</div>
+					<div class="form-check">
+					  <label class="form-check-label">
+						<input type="radio" class="form-check-input" name="emotion" value="mad">Mad
+					  </label>
+					</div>
+					<div class="form-check">
+					  <label class="form-check-label">
+						<input type="radio" class="form-check-input" name="emotion" value="glad">Glad
+					  </label>
+					</div>
+					
+				</div>
+					
+			<button type="submit" class="btn btn-block btn-outline-primary">Submit</button>
+					                                                   
+					</form>
+					
+				</div>
+			</div>
+			<br>
+			<div class="row">
+                <div id="output" class="col-sm-6 mx-auto text-warning">
+                    
+                </div>
+            </div>
+				
+				
+		</div>
+	</section>
+	
+	
+	<footer>
+		<div class="container p-5 text-center">
+			<div class="row">
+				<div class="col-sm-12 text-warning">
+					<h2>Notes</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-6 text-warning">
+					<p>Thank you for reading!!</p>
+					<p>Story is made by me and only me thanks.</p>
+				</div>
+				<div class="col-sm-6 text-warning">
+					<p>Fonts Used:</p>
+					<p>-Roboto Slab</p>
+					<p>-Kenia</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	
+	
+	
+	<script src="JS/MadLib.js"></script>
+</body>
+</html>
