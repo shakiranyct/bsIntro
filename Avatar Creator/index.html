@@ -1,0 +1,154 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Final Avatar</title>
+	
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+	
+	<link href="Css/Avatar.css" rel="stylesheet" type="text/css">
+	
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+	
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+	
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script> 
+
+</head>
+
+<body>
+	<header>
+		<div class="container text-center p-5">
+			<div class="row">
+				<div class="col-sm-12 bg-white">
+					<h1>Dabloon Catsona</h1>
+					<h6>Avatar Creator</h6>
+				</div>
+			</div>
+		</div>
+	</header>
+	
+	<section id="fill">
+	<div class="container pb-4"></div></section>
+	
+	<section id="pink">
+		<div class="container text-center pt-4">
+			<div class="row">
+				<div class="col-sm-12">
+					<h4>About</h4>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-sm-12">
+					<p>This Website is a Avatar Creator, you simply click what you want to add to your character! and then you get to name it, the fur colour is also able to change. Go have fun! I hope you enjoy this website!</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--This is for the main parts of the website-->
+	
+	<section id="top">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4 text-center pt-2">
+					<form action="javascript:write();">
+						<div class="form-group">
+							<label for="name"><b>Name:</b></label>
+							<input class="form-control" type="text" id="name">
+							<button type="submit" class="btn btn-block btn-outline-light">Enter</button>
+						</div>
+					</form>
+				</div>
+				
+				<div id="output" class="col-sm-8 text-center pt-2">
+					<!--id and name placement-->
+				</div>
+				
+			</div>
+			
+			<div class="row">
+				<div class="col-sm-4">
+					<img onClick="setBod('Body1.png')" src="Images/Body1TH.jpg" alt="Bodyselect" class="pb-1">
+					<img onClick="setBod('Body2.png')" src="Images/Body2TH.jpg" alt="Body2select" class="pb-1">
+					<img onClick="setBod('Body3.png')" src="Images/Body3TH.jpg" alt="Body3select" class="pb-1">
+					
+					<img onClick="setEy('Eye1.png')" src="Images/Eye1TH.jpg" alt="Eyeselect" class="pb-1">
+					<img onClick="setEy('Eye2.png')" src="Images/Eye2TH.jpg" alt="Eye2select" class="pb-1">
+					<img onClick="setEy('Eye3.png')" src="Images/Eye3TH.jpg" alt="Eye3select" class="pb-1">
+					
+					<img onClick="setBot('Pant1.png')" src="Images/Pant1TH.jpg" alt="Pantselect" class="pb-1">
+					<img onClick="setBot('Pant2.png')" src="Images/Pant2TH.jpg" alt="Pant2select" class="pb-1">
+					<img onClick="setBot('Pant3.png')" src="Images/Pant3TH.jpg" alt="Pant3select" class="pb-1">
+					
+					<img onClick="setShi('Shirt1.png')" src="Images/Shirt1TH.jpg" alt="Shirtselect" class="pb-1">
+					<img onClick="setShi('Shirt2.png')" src="Images/Shirt2TH.jpg" alt="Shirt2select" class="pb-1">
+				</div>
+				<div class="col-sm-8">
+					<div id="builder">
+						<div id="body"></div>
+						<div id="eye"></div>
+						<div id="shirt"></div>
+						<div id="bottom"></div>
+						<div id="hair"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<section id="refs">
+		
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 text-center pt-4">
+					<h4>Reflection</h4>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-sm-12">
+			<p>In the time of this course, I have learned a lot and experienced a lot. I have had my proudest moments those moments were when I made my Bio Website, I loved everything from the colors and layout straight down to the little bits that made it me. Another good one was my hometown assignment, and sure Bora Bora is not my home, but it did make for a fun website.</p>
+			<p>One of my toughest challenges has been making my mad libs I was completely lost after having missed the days we did the learning activity but with the saved video of the class and sheer determination I managed to pull something together.</p> 
+			<p>I would love to redo all the activities. There is not much I would change that I can control, but if it were anything it would be the fact, I got sick. One behavior that would help me out big time is one of working hard before playing hard, I have been trying hard to follow that all this course and I hope to get better at it.</p>
+				</div>
+			</div>
+			
+		</div>
+	</section>
+	
+	<!--Footer-->
+	
+	<footer id="foot">
+		<div class="container text-center pt-5">
+			<div class="row">
+				<div class="col-sm-12">
+					<h4>Extra</h4>
+				</div>
+			</div>
+			<div class="row">
+				
+				<div class="col-sm-6">
+					<p>This Website was made with Love and care</p>
+					<p>by: Shakira Pilling</p>
+				</div>
+				
+				<div class="col-sm-6">
+					<a href="https://shakiranyct.github.io/scripting22/MySite/" target="_blank">My Bio Here!!</a>
+				</div>
+				
+			</div>
+		</div>
+	</footer>
+	
+	
+	
+	
+	
+	
+	<script src="js/Avatar.js"></script>
+	
+</body>
+</html>

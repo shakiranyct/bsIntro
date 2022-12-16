@@ -1,0 +1,41 @@
+@charset "UTF-8";
+/* CSS Document */
+header{
+	background-image: url("../Images/1553684804.png");
+	background-position: center;
+	background-size: cover;
+	color: #BD1857;
+}
+
+#top{
+	background-color: #E36792;
+}
+
+#fill{
+	background-color: #E36792;
+	color: #FFDFE3;
+}
+
+#pink{
+	background-color: #FFDFE3;
+	color: #BD1857;
+}
+
+#foot{
+	background-color: #E36792;
+	color: #FFDFE3;
+}
+
+#refs{
+	background-color: #FFDFE3;
+	color: #BD1857;
+}
+
+#builder{
+	position: relative;
+	height:950px;
+}
+
+#body, #eye, #shirt, #bottom, #hair{
+	position: absolute;
+}
